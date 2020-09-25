@@ -203,6 +203,7 @@ class RoboWorld_Test(object):
 
 def main():
     test_obj = RoboWorld_Test()
+    print("hello git")
     #ur3 home
     home = np.array([joint*math.pi/180 for joint in [65.87, -93.02, 62.9, -59.95, -90.3, 156.43]])
     unload = np.array([joint*math.pi/180 for joint in [-23.21,-83.92,37.06,-43.1,-90.44,156.32]])
